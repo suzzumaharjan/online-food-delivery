@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>menu</title>
+	</head>
+	<style>
+		.design
+		{
+			border:1px solid black;
+			background-color: lightblue;
+			padding: 17px;
+			border-spacing: 20px;
+			
+		}
+		.main{
+ 			margin-left: 1%;
+ 			color:black;
+ 			padding:1%;
+ 			text-align: center;
+ 			font-family: Raleway;
+ 			font-size: 60px;
+ 			background-color: beige;
+ 		}
+ 		.menu{
+ 			font-size: 30px;
+ 			background-color:beige;
+ 			text-align: center;
+ 			font-style: bold;
+
+ 		}
+ 		th,td{
+			border:0px ;
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 20px;
+			font-style: bold;
+			font-weight: 800;
+			color: currentColor;
+			
+		}
+		.socail{
+			margin-bottom: 20px;
+			width:220px;
+			height:36px;
+			border-radius: 1px;
+			font-family: sans-serif;
+			font-weight: 700;
+			align-self: center;
+		}
+		input[type="submit"]
+		{
+			margin-bottom: 20px;
+			width:190px;
+			height:26px;
+			border-radius: 1px;
+			font-family: sans-serif;
+			font-weight: 800;
+			
+
+		}
+		
+ 				
+	</style>
+	<body bgcolor="black">
+		<div class="main">
+		D'Aroma FastFood
+	</div>
+		<table  align="center" width="70%" bgcolor="lemonchiffon" class="design" >
+			<tr>
+				<td>
+					<table >
+					<th class="menu" colspan="2" ><ins>MENU<ins></th>
+				
+			</tr>
+			<tr>
+				<td><ins>BURGER(W/CHIPS)</ins></td>
+				<td><ins>PIZZA</ins></td>
+			<tr>
+				<td>
+					<ul>
+					<li>Veg-------------------------------------Rs265/-</li>
+					<li>Chicken-------------------------------Rs285/-</li>
+					<li>Beef--------------------------------Rs285/-</li>
+					<li>Beef Burger w/Cheese-----------Rs310/-</li>
+					<li>Chicken Burger w/Cheese--------Rs310/-</li>
+					<li>Spinach Cheese Burger----------Rs295/-</li>
+					<li>Chicken Mushroom burger--------Rs295/-</li>
+				</ul>
+				</td>
+				<td>
+					<ul>
+					<li>Cheese Tomato Pizza-----------Rs385/-</li>
+					<li>Chicken Pizza-----------------Rs450/-</li>
+					<li>Mixed Veg Pizza---------------Rs410/-</li>
+					<li>Tuna Mushroom Pizza-----------Rs485/-</li>
+					<li>Mixed Pizza-------------------Rs650/-</li>
+				</ul>
+				
+				</td>
+			</tr>
+			<tr>
+				<td><ins>SPRING ROLL</ins></td>
+				<td><ins>TYPICAL NEPLAI FOOD</ins></td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+					<li>Vegetable---------------------Rs250</li>
+					<li>Chicken-----------------------Rs310</li>
+					<li>Mix----------------------------------Rs350</li>
+				</ul>
+				</td>
+				<td>
+					<ul>
+					<li>VEG SET------------------------Rs250/-<br/>(Veg Curry,Dal Fry,Rice,Pickle,Salad,Papad)</li>
+					<li>CHICKEN SET--------------------Rs360/-<br/>(Chicken Curry,Veg Curry,Dal Fry)</li>
+				</ul>
+				</td>
+			</tr>
+			<tr>
+				<td><ins>MOMO</ins></td>
+				<td><ins>CHOWMEIN</ins></td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li>Buff Momo---------------------Rs190/-</li>
+						<li>Veg Momo----------------------Rs120/-</li>
+						<li>Chicken Momo------------------Rs200/-</li>
+						<li>C Momo----------------------------Rs210/-</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li>Buff Chowmin-----------------Rs160/-</li>
+						<li>Veg Chowmin------------------Rs140/-</li>
+						<li>Chucken Chowmin--------------Rs190/-</li>
+						<li>Mixed chowmin----------------Rs200/-</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td><ins>DESERT</ins></td>
+				<td><ins>DRINK</ins></td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li>Choclate Pudding--------------Rs180/-</li>
+						<li>Custurd Pudding---------------Rs170/-</li>
+						<li>Rice Pudding------------------Rs165/-</li>
+						<li>Apple Fritters----------------Rs160/-</li>
+						<li>Banana Fritters---------------Rs160/-</li>
+						<li>Banana Fritters/Choclate Sauce------Rs190/-</li>
+					</ul>
+					
+				</td>
+				<td>
+					<ul>
+						<li>SOFT-DRINKS---------Rs/-100<li>
+							<ul>
+								<li>COca-Cola</li>
+								<li>Fanta</li>
+								<li>Sprite</li>
+							</ul>
+						<li>HARD-DRINKS----------Rs200/-</li>
+							<ul>
+								<li>Beer</li>
+								<li>Wine</li>
+								<li>Coctail</li>
+							</ul>
+					</ul>
+				</td>
+			</tr>
+					
+				</table>
+				</td>
+				
+			</tr>	
+
+		</table>
+		<form>
+			<table align="center" width="60%" style="background-image: url(photo.jpg); background-size: cover;" class="design">
+				<caption>Ordered Food</caption>
+				<tr>
+					<td>Name of Food:</td>
+					<td><input type="text" name="name_of_food"/></td>
+				</tr>
+				<tr>
+					<td>Quantity</td>
+					
+					<td>
+						<input type="number" name="quantity"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td>City:</td>
+					<td><select name="city"/>
+							<option value="kathmandu">kathmandu</option>
+							<option value="Bhaktapur">Bhaktapur</option>
+							<option value="Lalitpur">Lalitpur</option>
+						</select>
+					</td>
+					<td>Street Address:</td>
+					<td><input type="text" name="streetaddress"/></td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center"><input type="submit" value="submit"/ ></td>
+				</tr>
+				
+				<tr>
+					<td colspan="4"><button class="socail" style="background-color:purple;">Payment By Credit</button></td>
+				</tr>
+				<tr>
+					<td colspan="4"><button class="socail" style="background-color: red;">Payment After Delivery</button></td>
+				</tr>
+			</table>
+		</form>
+		
+	</body>
+</html>

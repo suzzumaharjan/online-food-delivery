@@ -1,0 +1,54 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>sign up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+ 		
+ 		.main{
+ 			margin-left: 1%;
+ 			color:white;
+ 			padding:1%;
+ 			text-align: center;
+ 			font-family: Raleway;
+ 			font-size: 60px;
+ 		}
+
+ 	</style>
+
+<body class="body">
+	<div class="main">
+		D'Aroma FastFood
+	</div>
+	<div id="login-box">
+		<div class="left-box">
+			<form
+			    method="post"
+			    action="http://localhost/web-tech/insert.php">
+				<h1>Sign Up</h1>
+
+
+			<input type="text" name="username" placeholder="Username"/>
+			<input type="text" name="email" placeholder="Email"/>
+			<input type="text" name="password" placeholder="Password"/>
+			<input type="submit" value="Sign Up" 
+				onclick="window.open('fastfood.html');" />
+		
+			</form>
+			
+			
+		</div>
+		<div class="right-box">
+			<span class="Signinwith">Sign in with<br/>Socail Network</span>
+
+			<button class="socail facebook" style="background-color:purple;">Log in with Facebook</button>
+			<button class="socail google" style="background-color: red;">Log in with Google</button>
+			
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
